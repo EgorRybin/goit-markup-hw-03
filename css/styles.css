@@ -94,11 +94,6 @@ ul {
     border-bottom: 1px solid #ECECEC;
 }
 
-.nav {
-    display: flex;
-    align-items: center;
-    height: 80px;
-}
 
 /* логотип */
 
@@ -120,6 +115,12 @@ ul {
 }
 
 /* навигация */
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
 
 .site-nav.list {
     display: flex;
