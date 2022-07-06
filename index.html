@@ -16,22 +16,24 @@
     <!-- шапка -->
     <header class="header">
         <!-- навигация -->
-        <nav class="nav conteiner">
-            <!-- логотип -->
-            <a class="logo" href="./">Web<span class="logo-header">Studio</span>
-            </a>
-            <!-- навигация -->
-            <ul class="site-nav list">
-                <li class="item"><a href="./index.html" class="link-current">Студия</a></li>
-                <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-                <li class="item"><a href="contacts" class="link">Контакты</a></li>
-            </ul>
-            <!-- мыло и телефон -->
-            <ul class="auth-nav list">
-                <li class="item"><a href="mailto:info@devstudio.com" class="contakts-header">info@devstudio.com</a></li>
-                <li class="item"><a href="tel:+380961111111" class="contakts-header">+38 096 111 11 11</a></li>
-            </ul>
-        </nav>
+        <div class="conteiner">
+            <nav class="nav">
+                <!-- логотип -->
+                <a href="./" class="logo">Web<span class="logo-header">Studio</span>
+                </a>
+                <!-- навигация -->
+                <ul class="site-nav list">
+                    <li class="item"><a href="./index.html" class="link-current">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                    <li class="item"><a href="contacts" class="link">Контакты</a></li>
+                </ul>
+                <!-- мыло и телефон -->
+                <ul class="auth-nav list">
+                    <li class="auth-item"><a href="mailto:info@devstudio.com" class="contakts-header">info@devstudio.com</a></li>
+                    <li class="auth-item"><a href="tel:+380961111111" class="contakts-header">+38 096 111 11 11</a></li>
+                </ul>
+            </nav>
+        </div>
     
     
     </header>
@@ -44,69 +46,77 @@
      </section>
     <!-- качества -->
 
-        <section class="quality-section conteiner">
-            <h2 class="quality section-title">наши качества</h2>
-            <ul class="quality-list list">
-                <li class="item">
-                    <h3 class="section-list">Внимание к деталям</h3>
-                    <p class="quality-description">Идейные соображения, а также начало повседневной работы по формированию
-                        позиции.</p>
-                </li>
-                <li class="item">
-                    <h3 class="section-list">Пунктуальность</h3>
-                    <p class="quality-description">Задача организации, в особенности же рамки и место обучения кадров влечет за
-                        собой.</p>
-                </li>
-                <li class="item">
-                    <h3 class="section-list">Планирование</h3>
-                    <p class="quality-description">Равным образом консультация с широким активом в значительной степени
-                        обуславливает.</p>
-                </li>
-                <li class="item">
-                    <h3 class="section-list">Современные технологии</h3>
-                    <p class="quality-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                    </p>
-                </li>
-            </ul>
+        <section class="quality-section">
+            <div class="conteiner">
+                <h2 class="quality section-title">наши качества</h2>
+                <ul class="quality-list list">
+                    <li class="quality-item">
+                        <h3 class="section-list">Внимание к деталям</h3>
+                        <p class="quality-description">Идейные соображения, а также начало повседневной работы по формированию
+                            позиции.</p>
+                    </li>
+                    <li class="quality-item">
+                        <h3 class="section-list">Пунктуальность</h3>
+                        <p class="quality-description">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                            собой.</p>
+                    </li>
+                    <li class="quality-item">
+                        <h3 class="section-list">Планирование</h3>
+                        <p class="quality-description">Равным образом консультация с широким активом в значительной степени
+                            обуславливает.</p>
+                    </li>
+                    <li class="quality-item">
+                        <h3 class="section-list">Современные технологии</h3>
+                        <p class="quality-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
 
      <!-- чем занимаемся -->
-     <section class="section conteiner">
-        <h2 class="features section-title">Чем мы занимаемся</h2>
-        <ul class="features list">
-            <li class="item"><img src="./images/img1.jpg" alt="набор текста" width="370"></li>
-            <li class="item"><img src="./images/img2.jpg" alt="телефон в руке" width="370"></li>
-            <li class="item"><img src="./images/img3.jpg" alt="рисование на планшете" width="370"></li>
-        </ul>
+     <section class="section">
+        <div class="conteiner">
+            <h2 class="features section-title">Чем мы занимаемся</h2>
+            <ul class="features list">
+                <li class="features-item"><img src="./images/img1.jpg" alt="набор текста" width="370"></li>
+                <li class="features-item"><img src="./images/img2.jpg" alt="телефон в руке" width="370"></li>
+                <li class="features-item"><img src="./images/img3.jpg" alt="рисование на планшете" width="370"></li>
+            </ul>
+        </div>
 
      </section>
+
      <!-- наша команда -->
-     <section class="section conteiner">
-        <h2 class="team section-title">Наша команда</h2>
-        <ul class="team list">    
-            <li class="team-item">
-                <img class="image" src="./images/man1.jpg" alt="мужчина в очках" width="270">
-                <h3 class="team-name">Игорь Демьяненко</h3>
-                <p lang="en" class="team-description">Product Designer</p>
-            </li>
-            <li class="team-item">
-                <img class="image" src="./images/man2.jpg" alt="девушка улыбается" width="270">
-                <h3 class="team-name">Ольга Репина</h3>
-                <p lang="en" class="team-description">Frontend Developer</p>
-            </li>
-            <li class="team-item">
-                <img class="image" src="./images/man3.jpg" alt="мужчина улыбается" width="270">
-                <h3 class="team-name">Николай Тарасов</h3>
-                <p lang="en" class="team-description">Marketing</p>
-            </li>
-            <li class="team-item">
-                <img class="image" src="./images/man4.jpg" alt="мужчина ухмыляется" width="270">
-                <h3 class="team-name">Михаил Ермаков</h3>
-                <p lang="en" class="team-description">UI Designer</p>
-            </li>
-        </ul>
+     <section class="section">
+        <div class="conteiner">
+            <h2 class="team section-title">Наша команда</h2>
+            <ul class="team list">
+                <li class="team-item">
+                    <img class="team-image" src="./images/man1.jpg" alt="мужчина в очках" width="270">
+                    <h3 class="team-name">Игорь Демьяненко</h3>
+                    <p lang="en" class="team-description">Product Designer</p>
+                </li>
+                <li class="team-item">
+                    <img class="team-image" src="./images/man2.jpg" alt="девушка улыбается" width="270">
+                    <h3 class="team-name">Ольга Репина</h3>
+                    <p lang="en" class="team-description">Frontend Developer</p>
+                </li>
+                <li class="team-item">
+                    <img class="team-image" src="./images/man3.jpg" alt="мужчина улыбается" width="270">
+                    <h3 class="team-name">Николай Тарасов</h3>
+                    <p lang="en" class="team-description">Marketing</p>
+                </li>
+                <li class="team-item">
+                    <img class="team-image" src="./images/man4.jpg" alt="мужчина ухмыляется" width="270">
+                    <h3 class="team-name">Михаил Ермаков</h3>
+                    <p lang="en" class="team-description">UI Designer</p>
+                </li>
+            </ul>
+        </div>
      </section>
+     
     </main>
 
     <footer class="footer">
@@ -127,7 +137,6 @@
             </div>
     </footer>
 
-  
    
 </body>
 
