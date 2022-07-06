@@ -360,13 +360,18 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+  
 }
 
 .catalog-item {
-    width: calc((100%-60px)/3);
+    width: calc((100% - 60px) /3);
+    /* flex-basis: calc(( 100% - 60px ) / 3 ); */
     border: 1px solid #EEEEEE;
-    width: 370px;
+   
 }
+
+
+
 
 .catalog-img {
     margin-bottom: 20px;
