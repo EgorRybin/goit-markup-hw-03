@@ -71,6 +71,7 @@ ul {
 
 
 .section-title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -274,16 +275,10 @@ ul {
     
         font-weight: 400;
         font-size: 14px;
-        line-height: 1.171;
-
-
+        line-height: 1.71;
 }
 
 /* чем мы занимаемся */
-
-.features.section-title {
-    margin-bottom: 50px
-}
 
 
 .features {
@@ -295,9 +290,6 @@ ul {
 }
 /* наша команда */
 
-.team.section-title {
-    margin-bottom: 50px;
-}
 
 .team.list {
     display: flex;
@@ -365,27 +357,27 @@ ul {
 
 .catalog-item {
     width: calc((100% - 60px) /3);
-    /* flex-basis: calc(( 100% - 60px ) / 3 ); */
-    border: 1px solid #EEEEEE;
-   
+    /* flex-basis: calc((100% - 60px) / 3 );    */
 }
 
 
-
-
 .catalog-img {
-    margin-bottom: 20px;
-    /* width: 368px; */
+    display: block;
+  
 }
 
 .catalog-link {
     text-decoration: none;
 }
 
-.catalog-title {
-    margin-bottom: 4px;
-    margin-left: 24px;
+.catalog-box {
+    padding: 20px 24px;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+}
 
+.catalog-title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -394,9 +386,6 @@ ul {
 }
 
 .catalog-text {
-    margin-bottom: 20px;
-    margin-left: 24px;
-
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -418,6 +407,8 @@ ul {
 }
 
 .button.secondary {
+    padding: 6px 22px;
+
     background-color: var(--button-bg-color);
     font-weight: 500;
     font-size: 16px;
@@ -434,6 +425,8 @@ ul {
 
 .button.primary {
     display: block;
+    padding: 10px 30px;
+    margin: 0px auto;
    
     color: var(--wite-color);
     background-color: var(--accent-color);
@@ -442,9 +435,7 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     align-items: center;
-    letter-spacing: 0.06em;
-    padding: 10px 30px;
-    margin: 0px auto;
+    letter-spacing: 0.06em; 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
@@ -459,9 +450,9 @@ ul {
 
 .footer {
     padding-top: 60px;
+    padding-bottom: 60px;
 
     background-color: var(--secondary-bg-color);
-    height: 252px;
 }
 
 /* логотип футер */
